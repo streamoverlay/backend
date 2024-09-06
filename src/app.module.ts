@@ -22,6 +22,7 @@ import { R2Module } from './modules/r2/r2.module';
 import { SessionsModule } from './modules/sessions/sessions.module';
 import { TemplateVersionModule } from './modules/template-version/template-version.module';
 import { TemplateModule } from './modules/templates/template.module';
+import { TokenModule } from './modules/token/token.module';
 import { TwitchModule } from './modules/twitch/twitch.module';
 import { UsersModule } from './modules/users/users.module';
 import { WidgetsModule } from './modules/widgets/widgets.module';
@@ -76,6 +77,7 @@ import { WidgetsModule } from './modules/widgets/widgets.module';
     SessionsModule,
     TemplateModule,
     TemplateVersionModule,
+    TokenModule,
     TwitchModule,
     UsersModule,
     WidgetsModule,
